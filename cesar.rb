@@ -43,7 +43,7 @@ end
 
 puts "Quel message voulez-vous coder ?"
     string = gets.chomp
-puts "Quel est votre code entre 1 et 24"
+puts "Quel est votre code entre 1 et 2"
     code = gets.chomp.to_i
 puts "Votre message codé est : " + cesar(string, code)
 # a.chr
