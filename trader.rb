@@ -28,4 +28,4 @@ def trader_of_sunday (prices)
   puts "Vous avez fait un profit de #{prices[high]}$ - #{prices[low]}$ == #{prices[high] - prices[low]}$"
 end
 
-trader_of_sunday ([17,3,6,9,2,15,8,6,1,10])
+trader_of_sunday ([17,3,6,9,15,8,6,1,10])
