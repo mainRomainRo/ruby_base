@@ -9,6 +9,7 @@ def multiple(max)
 		end
 	end
 return (array)
+print array
 end
 
 
