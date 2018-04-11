@@ -3,7 +3,7 @@ max = 1000
 def multiple(max)
 	i = 0
 	array = []
-	for i in 1..max
+	for i in 1...max
 		if i%3 == 0 || i%5 == 0
 			array << i
 		end
